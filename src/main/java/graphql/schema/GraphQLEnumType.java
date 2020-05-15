@@ -32,7 +32,7 @@ import static java.util.Collections.emptyList;
  * See http://graphql.org/learn/schema/#enumeration-types for more details
  */
 @PublicApi
-public class GraphQLEnumType implements GraphQLNamedDescriptionType, GraphQLNamedInputType, GraphQLNamedOutputType, GraphQLUnmodifiedType, GraphQLNullableType, GraphQLDirectiveContainer {
+public class GraphQLEnumType implements GraphQLNamedInputType, GraphQLNamedOutputType, GraphQLUnmodifiedType, GraphQLNullableType, GraphQLDirectiveContainer {
     
     public static final GraphQLEnumType graphQLEnumType = newEnum().name("BUILT_IN").build();
     private final String name;
